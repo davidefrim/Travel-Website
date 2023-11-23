@@ -17,7 +17,7 @@
 
         mysqli_query($connection,$request);
 
-        header('location:book.php');
+        header('location:book.html');
     }else{
         echo 'something went wrong, please try again';
     }
